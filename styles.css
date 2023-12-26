@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10vh; /* Use viewport height for dynamic spacing */
     background-color: #FFC0CB; /* Light pink background */
     font-family: 'Comic Sans MS', 'Arial', sans-serif;
     color: #FFF; /* White text color */
@@ -8,8 +8,8 @@ body {
 
 button {
     margin: 10px;
-    padding: 10px 20px;
-    font-size: large;
+    padding: 15px 30px;
+    font-size: 2em; /* Larger font size for better visibility */
     background-color: #FFA0B5; /* Darker shade of pink */
     color: white; /* White text on buttons */
     border: none;
@@ -23,10 +23,24 @@ button:hover {
 }
 
 #responseSection img, #questionSection img {
-    width: 200px;
+    width: 50%; /* Responsive image size */
+    max-width: 300px; /* Maximum size */
     margin-top: 20px;
 }
 
 p {
-    font-size: 24px;
+    font-size: 2em; /* Larger font size */
+    margin: 0.5em 0; /* Adjust spacing */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    button {
+        padding: 10px 20px;
+        font-size: 1.5em; /* Slightly smaller on mobile */
+    }
+
+    p {
+        font-size: 1.5em;
+    }
 }

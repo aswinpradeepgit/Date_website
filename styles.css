@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #FFC0CB; /* Light pink background */
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    color: #FFF; /* White text color */
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: large;
+    background-color: #FFA0B5; /* Darker shade of pink */
+    color: white; /* White text on buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FF8BA0; /* Slightly lighter pink on hover */
+}
+
+#responseSection img, #questionSection img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 24px;
+}
